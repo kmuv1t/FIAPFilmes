@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiap Filmes</title>
+    <link rel="icon" type="image/x-icon" href="images/icon/theater.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <span>
+            <img src="images/icon/theater.svg">
+        </span>
+        <h1>Fiap Filmes</h1>
+        <nav>
+            <ul>
+                <li><a class="barra" href="index.html">Filmes</a></li>
+                <li><a class="barra" href="index.html">Séries</a></li>
+                <li><a class="barra" href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <div class="hero">
+        <p style="font-family: var(--font-body);">Encontre rapidamente o que assistir</p>
+    </div>
+
+    <main>
+        <h2>Filmes em alta</h2>
+        <section id="filmes" class="secao-filmes">
+            <div class="card">
+                <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jA4h6xw5GhHnwqHtGd1VLNnl9XA.jpg"/>
+                <p style="font-weight: bold;" class="titulo">Rogai por nós</p>
+                <div class="nota">
+                    <span class="material-icons estrela">star</span>
+                    <span>9,8</span>
+                </div>
+                <a class="botao" href="details.html">Detalhes</a>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./js/filmes/Card.js"></script>
+<script src="./js/filmes/dados.js"></script>
+<script src="./js/filmes/script.js"></script>
+</html>
